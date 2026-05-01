@@ -30,7 +30,7 @@
         num {
             display-name = "NUM";
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &kp RA(Q)  &kp RA(P)  &kp RA(Y)  &mo 4  &kp LC(SPACE)  &kp INSERT  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &none  &kp LSHFT  &none  &kp LA(SPACE)  &none  &kp LS(INSERT)  &none  &none  &none  &none  &none  &none  &none  &trans  &studio_unlock  &kp RET  &mo 3  &kp LC(BACKSPACE)
             >;
         };
 
