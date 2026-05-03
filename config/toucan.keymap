@@ -24,7 +24,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp P  &kp Z  &kp U  &kp I  &kp O  &none  &none  &kp A  &kp S  &kp D  &kp F  &kp G  &kp LA(KP_COMMA)  &kp H  &kp J  &kp K  &kp L  &none  &none  &mt LGUI TAB  &kp Y  &kp X  &kp C  &kp V  &kp MINUS  &kp B  &kp N  &kp M  &kp PERIOD  &none  &kp LALT  &mo 1  &mt LSHIFT SPACE  &kp RCTRL  &mo 2  &kp BACKSPACE
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp P  &kp Z  &kp U  &kp I  &kp O  &none  &none  &kp A  &kp S  &kp D  &kp F  &kp G  &kp KP_COMMA  &kp H  &kp J  &kp K  &kp L  &none  &none  &mt LGUI TAB  &kp Y  &kp X  &kp C  &kp V  &kp MINUS  &kp B  &kp N  &kp M  &kp PERIOD  &none  &kp LALT  &mo 1  &mt LSHIFT SPACE  &kp RCTRL  &mo 2  &kp BACKSPACE
             >;
         };
 
@@ -51,7 +51,7 @@
 
         nav {
             bindings = <
-&none  &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &none  &none  &mkp LCLK  &none  &mkp RCLK  &trans  &none  &kp LA(PLUS)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &none  &none  &none  &mkp MCLK  &none  &none  &none  &kp LS(LA(MINUS))  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP))  &kp LA(LS(RIGHT))  &none  &none  &none  &none  &none  &none  &none
+&none  &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &none  &none  &mkp LCLK  &mo 6  &mkp RCLK  &trans  &none  &kp LA(PLUS)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &none  &none  &none  &mkp MCLK  &none  &none  &none  &kp LS(LA(MINUS))  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP))  &kp LA(LS(RIGHT))  &none  &none  &none  &none  &none  &none  &none
             >;
 
             label = "NAV";
@@ -61,6 +61,14 @@
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none  &none  &none  &none  &none  &trans  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &none  &bt BT_PRV  &none  &bt BT_NXT
             >;
+        };
+
+        Scroll {
+            bindings = <
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+            >;
+
+            label = "SCRL";
         };
     };
 };
