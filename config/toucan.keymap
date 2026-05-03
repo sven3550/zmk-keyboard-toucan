@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV  1
@@ -30,7 +30,7 @@
         num {
             display-name = "NUM";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &kp RA(Q)  &kp RA(P)  &kp RA(Y)  &mo 4  &kp LC(SPACE)  &kp INSERT  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &none  &kp LSHFT  &none  &kp LA(SPACE)  &none  &kp LS(INSERT)  &none  &none  &none  &none  &none  &none  &none  &trans  &studio_unlock  &kp RET  &mo 3  &kp LC(BACKSPACE)
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &kp RA(Q)  &kp RA(P)  &kp RA(Y)  &mo 4  &kp LC(SPACE)  &kp INSERT  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &none  &kp LSHFT  &none  &kp LA(SPACE)  &mo 5  &kp LS(INSERT)  &none  &none  &none  &none  &none  &none  &none  &trans  &none  &kp RET  &mo 3  &kp LC(BACKSPACE)
             >;
         };
 
@@ -50,10 +50,16 @@
 
         nav {
             bindings = <
-&none  &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &none  &none  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &none  &kp LA(PLUS)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &none  &none  &none  &none  &none  &none  &none  &kp LS(LA(MINUS))  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP))  &kp LA(LS(RIGHT))  &none  &none  &none  &none  &none  &none  &none
+&none  &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &none  &none  &none  &none  &none  &trans  &none  &kp LA(PLUS)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &none  &none  &none  &none  &none  &none  &none  &kp LS(LA(MINUS))  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP))  &kp LA(LS(RIGHT))  &none  &none  &none  &none  &none  &none  &none
             >;
 
-            label = "Navigate";
+            label = "NAV";
+        };
+
+        ZMK {
+            bindings = <
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none  &none  &none  &none  &none  &trans  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &none  &bt BT_PRV  &none  &bt BT_NXT
+            >;
         };
     };
 };
