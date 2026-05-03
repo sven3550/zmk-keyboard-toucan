@@ -24,7 +24,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp P  &kp Z  &kp U  &kp I  &kp O  &none  &none  &kp A  &kp S  &kp D  &kp F  &kp G  &kp KP_COMMA  &kp H  &kp J  &kp K  &kp L  &none  &none  &mt LGUI TAB  &kp Y  &kp X  &kp C  &kp V  &kp MINUS  &kp B  &kp N  &kp M  &kp PERIOD  &none  &kp LALT  &mo 1  &mt LSHIFT SPACE  &kp RCTRL  &mo 2  &kp BACKSPACE
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp P  &kp Z  &kp U  &kp I  &kp O  &none  &none  &kp A  &kp S  &kp D  &kp F  &kp G  &kp COMMA  &kp H  &kp J  &kp K  &kp L  &none  &none  &mt LGUI TAB  &kp Y  &kp X  &kp C  &kp V  &kp MINUS  &kp B  &kp N  &kp M  &kp PERIOD  &none  &kp LALT  &mo 1  &mt LSHIFT SPACE  &kp RCTRL  &mo 2  &kp BACKSPACE
             >;
         };
 
