@@ -44,7 +44,7 @@
 
         nav {
             bindings = <
-&none  &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &none  &none  &mkp RCLK  &mo 6  &mkp LCLK  &trans  &none  &kp LA(PLUS)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &none  &none  &none  &mkp MCLK  &none  &none  &none  &kp LS(LA(MINUS))  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP))  &kp LA(LS(RIGHT))  &none  &none  &none  &none  &none  &none  &none
+&none  &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &none  &none  &mkp RCLK  &mo 6  &mkp LCLK  &trans  &none  &kp LC(EQUAL)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &none  &none  &none  &mkp MCLK  &none  &none  &none  &kp LC(MINUS)  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP))  &kp LA(LS(RIGHT))  &none  &none  &none  &none  &none  &none  &none
             >;
 
             label = "NAV";
